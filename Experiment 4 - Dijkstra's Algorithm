@@ -55,3 +55,18 @@ for v in range(len(graph)):
     # Ex. No. 4 Implementation of Single Source Shortest Path Algorithm (Dijkstra's) CS5303 – DAA Lab
     d = dist[v] if dist[v] != float('inf') else 'INF'
     print(f'{v:>8} {str(d):>10} {path_str:>30}')
+
+
+
+
+
+Output:
+
+
+Shortest distances from source 0:
+0 -> 0 = 0
+0 -> 1 = 3
+0 -> 2 = 1
+0 -> 3 = 4
+0 -> 4 = 7
+0 -> 5 = 9
