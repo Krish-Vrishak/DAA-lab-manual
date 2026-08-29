@@ -61,3 +61,13 @@ for size in [10, 100, 1000, 10000]:
 
     formula = 3 * size // 2 - 2
     print(f'{size:>8} {dc:>12} {naive:>14} {formula:>16}')
+
+
+
+
+
+Output:
+
+Array: [12, 45, 7, 89, 23, 56, 91, 3, 18]
+Minimum: 3
+Maximum: 91
