@@ -40,3 +40,15 @@ print("Minimum scalar multiplications:", m[1][len(dimensions) - 1])
 print("Optimal Parenthesization:", end=" ")
 print_optimal(s, 1, len(dimensions) - 1)
 print()
+
+
+
+
+
+
+
+
+Output:
+
+Minimum scalar multiplications: 5000
+Optimal Parenthesization: ((A1A2)(A3A4))
